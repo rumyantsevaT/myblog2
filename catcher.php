@@ -12,7 +12,7 @@
 //}
 
 //1) Соединиться с бд
-$pdo = new PDO("mysql:host=localhost;dbname=myblog.loc;charset=utf8", "root", "root");
+$pdo = new PDO("mysql:host=localhost;dbname=myblog_loc;charset=utf8", "root", "root");
 // 2)sql запрос -запись в базу данных значения из формы со страницы create.php
 $sql = "INSERT INTO breeds (title, content, image) VALUES (:title, :content, :image)";
 $statement = $pdo->prepare($sql);
