@@ -2,14 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5294a30-4b5c-4ed8-ba2e-08a854e965d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myblog2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myblog2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/catcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connectdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/connectdb.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/myblog_loc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/myblog_loc.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details.php" beforeDir="false" afterPath="$PROJECT_DIR$/details.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Lasco.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Lasco.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Poiret_One/PoiretOne-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Poiret_One/PoiretOne-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/lasco.otf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/lasco.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/bull-terrier-korsan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/bull-terrier-korsan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/bull-terrier-korsan.psd" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/bull-terrier-korsan.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/bull-terrier-red500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/bull-terrier-red500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/bullterrier.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/bullterrier.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/deactiv_hid_400.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/deactiv_hid_400.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screen-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screen-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stuf-puppy-transp.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/stuf-puppy-transp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stuf-puppy1200x447.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/stuf-puppy1200x447.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpinfo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/IMG_0049.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/bull-terrier-korsan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/bull-terrier-korsan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/bullterrier.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/bullterrier.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/cartoon-young-girl-icon-vector-12133271.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/cartoon-young-girl-icon-vector-12133271.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/crown.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/crown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/deactiv_hid_400.gif" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/deactiv_hid_400.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/screen-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/screen-7.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1iop2j0t0DIrVWBdFPuuHnUFhoX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,9 +65,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602583594521</updated>
       <workItem from="1602583598509" duration="431000" />
+      <workItem from="1617986859175" duration="1983000" />
     </task>
     <servers />
   </component>

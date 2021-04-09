@@ -1,13 +1,14 @@
 <?php
 // Список постов
 //var_dump($_POST);
-$pdo = new PDO("mysql:host=localhost;dbname=myblog_loc;charset=utf8", "root", "root");
+require "connectdb.php";
+// $pdo = new PDO("mysql:host=localhost;dbname=myblog_loc;charset=utf8", "root", "root");
 $sql = "SELECT * FROM breeds";
 $statement = $pdo->prepare($sql);
 $statement->execute();
 $breeds = $statement->fetchAll(PDO::FETCH_ASSOC);
 
-// var_dump($breeds);die;
+//var_dump($breeds);die;
 ?>
 
 <!doctype html>
@@ -20,7 +21,7 @@ $breeds = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 	<!-- Bootstrap CSS 4.1.3-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
     <!--    Custom style-->
     <link rel="stylesheet" href="css/style.css">
 	<!--	fontawesome-->
@@ -79,7 +80,7 @@ $breeds = $statement->fetchAll(PDO::FETCH_ASSOC);
 		</div>
 		<hr class="my-4">
 	</div>
-	
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3">
@@ -88,7 +89,7 @@ $breeds = $statement->fetchAll(PDO::FETCH_ASSOC);
 						<header class="card-header"><h5 class="title">Размер породы</h5></header>
 						<div class="filter-content">
 							<div class="list-group list-group-flush">
-								<a href="#" class="list-group-item">Гигантская <span class="float-right badge badge-secondary round">142</span> </a>
+								<a href="#" class="list-group-item">Гигантская <span class="float-right badge badge-secondary round">142 hard</span> </a>
 								<a href="#" class="list-group-item">Большая <span class="float-right badge badge-secondary round">3</span>  </a>
 								<a href="#" class="list-group-item">Средняя <span class="float-right badge badge-secondary round">32</span>  </a>
 								<a href="#" class="list-group-item">Маленькая <span class="float-right badge badge-secondary round">12</span>  </a>
@@ -133,7 +134,7 @@ $breeds = $statement->fetchAll(PDO::FETCH_ASSOC);
 									</div> <!-- action-wrap.// -->
 								</div> <!-- text-wrap.// -->
 							</div> <!-- col.// -->
-							
+
 						</div> <!-- row.// -->
 					</article> <!-- itemlist.// -->
 				</div> <!-- card.// -->

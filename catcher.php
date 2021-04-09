@@ -1,7 +1,8 @@
 <?php
 //отловить $_FILES переданные данные
-//var_dump($_FILES['image']['tmp_name']) . '\n';
-//var_dump($_FILES['image']['name']);die;
+var_dump($_FILES);
+var_dump($_FILES['image']['tmp_name']) . '\n';
+var_dump($_FILES['image']['name']);die;
 
 //try {
 //	$pdo = new PDO("mysql:host=localhost;dbname=myblog.loc;charset=utf8", "root", "root");
@@ -12,8 +13,11 @@
 //}
 
 //1) Соединиться с бд
-$pdo = new PDO("mysql:host=localhost;dbname=myblog_loc;charset=utf8", "root", "root");
+require "connectdb.php";
+// $pdo = new PDO("mysql:host=localhost;dbname=myblog_loc;charset=utf8", "root", "root");
 // 2)sql запрос -запись в базу данных значения из формы со страницы create.php
+
+//var_dump($pdo);
 $sql = "INSERT INTO breeds (title, content, image) VALUES (:title, :content, :image)";
 $statement = $pdo->prepare($sql);
 $statement->bindParam(":title", $_POST['title']);
@@ -30,4 +34,4 @@ function uploadImage($image_file){
 
 uploadImage($_FILES['image']);
 
-header("Location: /");
+//header("Location: /");
